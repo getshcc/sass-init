@@ -1,0 +1,11 @@
+@use 'sass:map'
+@use 'core/normalize'
+@use 'abstracts/variables' as var
+
+
+body
+    background-color: map-get(var.$light-theme, background)
+    color: map-get(var.$light-theme, forground)
+
+h1,h2,h3
+    background-color: var.$googleGreen
